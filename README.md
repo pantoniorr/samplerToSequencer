@@ -24,18 +24,28 @@ It also manages the saving process into one of the eigth AudioBuffers which are 
 The Sequencer relies on the Tone.js Web Audio framework for the implementation of the time grid (8 beats), the management of BPM and the samples triggering. This part of the code also handles the creation of the graphic objects in the DOM for the 8x8 matrix of the sequencer itself.
 
 _Stability issues and further improvements_:
+
 Tested on Chrome 92.0.4515.159 in macOS High Sierra.
+
 Further improvements might include:
+
 DSP implementations: OLA family based algorithms for time stretching or pitch shifting of the samples, HPF and LPF;
+
 Clock stability and sync with external DAWs or MIDI/OSC platforms;
+
 General UI improvements;
+
 More steps of the sequencer;
+
 A more precise selection of the waveform;
+
 Export the audio render.
 
 
 _Notes and Credits_:
+
 The knob implementation has been made by KnobMan (https://github.com/g200kg/input-knobs).
+
 The idea behind the sequencer starts from this project: https://medium.com/geekculture/creating-a-step-sequencer-with-tone-js-32ea3002aaf5
 
 

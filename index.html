@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SamplerToSequencer</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+  <body>
+    <table class="tableLayout">
+      <tr>
+        <td>
+        <h2 class="bigTitle">SamplerToSequencer</h2>
+          <button id="play1" style="display: none;">Sample 1</button>
+          <button id="play2" style="display: none;">Sample 2</button>
+          <button id="play3" style="display: none;">Sample 3</button>
+          <button id="play4" style="display: none;">Sample 4</button>
+          <button id="play5" style="display: none;">Sample 5</button>
+          <button id="play6" style="display: none;">Sample 6</button>
+          <button id="play7" style="display: none;">Sample 7</button>
+          <button id="play8" style="display: none;">Sample 8</button>
+          <div class="editorsII">
+            <button id="record" class="note"><font face="vcr_osd_monoregular" color="black">REC</font></button>
+            <button id="stop" class="note" disabled><font face="vcr_osd_monoregular" color="black">STOP</font></button>
+            <button id="play" class="note" disabled><font face="vcr_osd_monoregular" color="black">PLAY</font></button>
+            <button id="edit" class="note" disabled><font face="vcr_osd_monoregular" color="black">EDIT</font></button>
+            <input id="pitchVal" type="range" class="input-knob"/>
+            <div class="noteII">
+            <img src="https://notanumber01.altervista.org/imgs/save.png" alt="Save" height="100%" width="100%">
+                <div class="dropdown-content">
+                  <button id="save1" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 1</font></button>
+                  <button id="save2" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 2</font></button>
+                  <button id="save3" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 3</font></button>
+                  <button id="save4" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 4</font></button>
+                  <button id="save5" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 5</font></button>
+                  <button id="save6" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 6</font></button>
+                  <button id="save7" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 7</font></button>
+                  <button id="save8" class="noteII" disabled><font face="vcr_osd_monoregular" color="black">Slot 8</font></button>
+                </div>
+              </div>
+          </div>
+          <div>
+            <canvas></canvas>
+          </div>
+          <font face="vcr_osd_monoregular" color="black">HOW TO USEI IT? Check this link. Antonio Orrù, 2021.</font></td>
+        <td>
+          <div class="editorsIII">
+            <button id="play-button" class="note"><img src="https://notanumber01.altervista.org/imgs/play.png" alt="Play sequencer" height="80%" width="100%"></button>
+            <button id="setBpm" class="note"><font face="vcr_osd_monoregular" color="black"><p id="bpmResult">TAP</p></font></button>
+            
+          </div>
+          <div>
+            <div id="sequencer" class="container sequencer"> </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+<script src="https://unpkg.com/tone"></script>
+<script src="https://notanumber01.altervista.org/js/input-knobs.js"></script>
+<script type="module" src="https://notanumber01.altervista.org/js/sequencerFuns.js"></script>
+<script src="https://notanumber01.altervista.org/js/samplerFuns.js"></script>
+<script src="https://notanumber01.altervista.org/js/app.js">
+</script>
+  </div>
+
+
+</div>
+  </body>
+</html>

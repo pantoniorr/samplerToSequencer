@@ -1,0 +1,188 @@
+
+body {
+    
+    width:  100%;
+  height: 100%;
+  margin: 0;
+}
+
+canvas {
+
+    margin: 2rem auto;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  z-index: 1;
+  background: black;
+  border-radius: 10px;
+}
+.myPics {
+margin: 2rem auto;
+    display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  z-index: 1;
+}
+.players {
+  margin: auto;
+  width: 60%;
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  z-index: 0;
+}
+.editors {
+  margin: auto;
+  width: 60%;
+  border: 3px solid black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.editorsII {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: safe center;
+}
+.editorsIII {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.bigTitle {
+  font: 38% vcr_osd_monoregular;
+  color: black;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: calc(2rem + 2vw);
+  background:  radial-gradient(circle, rgba(224,212,207,1) 0%, rgba(143,149,144,1) 100%);;
+  border-radius: 10px;
+  
+  }
+
+.bold {
+  font-weight: bold;
+  }
+.italic {
+  font-style: italic;
+  }
+
+ 
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background: #b5c7bd;
+  min-width: 40%;
+  box-shadow: 0px 8px 16px 0px;
+  z-index: 3;
+}
+
+
+.noteII:hover .dropdown-content {display: block;}
+
+.noteSeq {
+  border-radius: 5px;
+  height: 4em;
+  width: 4em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin: 2px;
+  outline: none;
+}
+
+.sequencer {
+  border-radius: 1em;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: fit-content;
+  margin: auto;
+}
+
+
+.note {
+  border-radius: 1em;
+  height: 5em;
+  width: 5em;
+  border-style: solid;
+  border-width: 0.05em;
+  border-color: white;
+  margin: 0.1em;
+  outline: none;
+  font: vcr_osd_monoregular;
+  font-size: calc(0.5rem + 0.5vw);
+}
+ .noteII {
+  border-radius: 1vw;
+  height: 4.8em;
+  width: 4.8em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  margin: 0.1em;
+  outline: none;
+  font: vcr_osd_monoregular;
+  font-size: calc(0.5rem + 0.5vw);
+
+}
+.sequencer-row {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.note-is-active {
+  background-color: black;
+  border: 0.05em solid black;
+}
+
+.note-not-active {
+  background-color: white;
+}
+
+.toggle-play {
+  display: flex;
+}
+
+.play-button {
+  margin: auto;
+}
+.tableLayout {
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 4vw solid #562f0e;
+  border-right: 4vw solid #562f0e;
+  border-bottom: 1.2vw solid black;
+  border-top: 1.2vw solid black;
+  background: #b5c7bd;
+
+}
+@font-face {
+    font-family: 'sf_hallucination_extremeRg';
+    src: url('sf_hallucination_extreme-webfont.woff2') format('woff2'),
+         url('sf_hallucination_extreme-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('vcr_osd_mono_1.001-webfont.woff2') format('woff2'),
+         url('vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

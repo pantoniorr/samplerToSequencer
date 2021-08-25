@@ -15,7 +15,7 @@ _Overview_
 
 **samplerToSequencer** is a creative tool that allows you to create samples sequences by capturing the audio stream from your interface. It is intended to be a fun tool mostly to experiment by recording random sounds and using them to create original sound patterns. 
 
-
+How to use it: https://github.com/pantoniorr/samplerToSequencer/wiki/samplerToSequencer-wiki
 
 _Technical aspects_:
 

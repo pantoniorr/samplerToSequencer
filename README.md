@@ -13,7 +13,7 @@ Youtube demo: __
 
 _Overview_
 
-**samplerToSequencer** is a creative tool that allows you to create samples sequences by capturing the audio stream from your interface. It is intended to be a fun tool mostly to experiment by recording random sounds and using them to create. 
+**samplerToSequencer** is a creative tool that allows you to create samples sequences by capturing the audio stream from your interface. It is intended to be a fun tool mostly to experiment by recording random sounds and using them to create original sound patterns. 
 
 
 _Technical aspects_:
@@ -29,7 +29,7 @@ Tested on Chrome 92.0.4515.159 in macOS High Sierra.
 
 Further improvements might include:
 
-DSP implementations: OLA family based algorithms for time stretching or pitch shifting of the samples, HPF and LPF;
+DSP implementations: OLA family based algorithms for time stretching or pitch shifting of the samples, HPF, LPF and Reverb effects;
 
 Clock stability and sync with external DAWs or MIDI/OSC platforms;
 
